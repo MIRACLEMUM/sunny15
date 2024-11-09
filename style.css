@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #141414;
     color: #ffffff;
+    background-image: ;
 }
 
 /* Header */
@@ -81,7 +82,7 @@ header nav ul li a {
 
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
     gap: 20px;
 }
 
