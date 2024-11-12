@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #141414;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #141414;
+    padding: 1rem 2rem;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.user-actions {
+    float: right;
+}
+
+.signin-btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #fff;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-btn {
+    padding: 0.8rem 2rem;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+
+/* Movie Section */
+.movie-section {
+    padding: 3rem 0;
+}
+
+.movie-section h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+/* Footer */
+footer {
+    background-color: #141414;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer p {
+    margin-top: 1rem;
+}
