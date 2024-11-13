@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
     color: #fff;
     background-color: #141414;
+    background-image: url(./net.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Navbar */
