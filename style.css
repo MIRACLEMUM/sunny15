@@ -10,11 +10,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #141414;
     color: white;
-    background-image: url(./images\ \(8\).jpg);
+    background-image:linear-gradient(red,white,red,black);
     background-repeat:no-repeat;
     background-size: cover;
     border-radius: 5%;
     
+}
+.header text{
+    width: 90;
+
 }
 
 /* Navbar styling */
@@ -36,19 +40,26 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    cursor: pointer;   
+    cursor: pointer;
+    
+     
+    
+}
+.nav-links:hover{
+    background-color: #0056b3;
     
 }
 
 
 .profile img {
-    width: 30px;
+    width: 60px;
     border-radius: 60%;
 }
 
@@ -58,12 +69,15 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(./images\ \(10\).jpg2.jpg);
+    background-image: url(./hijack93storyart_na_01_zxx-scaled.webp50.webp);
+
     background-size: cover;
     background-position: center;
     height: 80vh;
     color: white;
     padding: 20px;
+    border-radius: 40%;
+
 }
 
 .hero-content h1 {
@@ -94,6 +108,10 @@ body {
 .content-section h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+
 }
 
 .content-grid {
